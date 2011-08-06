@@ -29,7 +29,7 @@
 		7F02F44E13EDF97200BDD4AC /* LearningObjectiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LearningObjectiveC; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F02F45213EDF97200BDD4AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7F02F45513EDF97200BDD4AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7F02F45813EDF97200BDD4AC /* LearningObjectiveC-Prefix.pch */ = {isa = PBXFileReference; path = "LearningObjectiveC-Prefix.pch"; sourceTree = "<group>"; };
+		7F02F45813EDF97200BDD4AC /* LearningObjectiveC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LearningObjectiveC-Prefix.pch"; sourceTree = "<group>"; };
 		7F02F45913EDF97200BDD4AC /* LearningObjectiveC.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LearningObjectiveC.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

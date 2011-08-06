@@ -10,13 +10,31 @@
 
 int main (int argc, const char * argv[])
 {
-
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-
-    // insert code here...
-    NSLog(@"Hello, World!");
-
+    int n;
+    while (n < 1) {
+        NSLog(@"n is less than 2");
+        n += 1;
+    }
+    for (n=0; n<5; n++) {
+        NSLog(@"%i", n);
+    }
+    if (true == true)
+    {
+        NSLog(@"true equals true dah!");
+    }
+    else
+    {
+        NSLog(@"End of the world");
+    }
+    switch (1) {
+        case 1:
+            NSLog(@"Using switch");
+            break;
+            
+        default:
+            break;
+    }
     [pool drain];
     return 0;
 }
-
