@@ -11,6 +11,7 @@
 		7F02F45613EDF97200BDD4AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F02F45513EDF97200BDD4AC /* main.m */; };
 		7F02F45A13EDF97200BDD4AC /* LearningObjectiveC.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F02F45913EDF97200BDD4AC /* LearningObjectiveC.1 */; };
 		7F02F46213EE189B00BDD4AC /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F02F46113EE189B00BDD4AC /* Calculator.m */; };
+		7F1B13EA13EF07BE00D2975B /* RockBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1B13E913EF07BE00D2975B /* RockBand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		7F02F45913EDF97200BDD4AC /* LearningObjectiveC.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LearningObjectiveC.1; sourceTree = "<group>"; };
 		7F02F46013EE189B00BDD4AC /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
 		7F02F46113EE189B00BDD4AC /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		7F1B13E813EF07BE00D2975B /* RockBand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RockBand.h; sourceTree = "<group>"; };
+		7F1B13E913EF07BE00D2975B /* RockBand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RockBand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 				7F02F45713EDF97200BDD4AC /* Supporting Files */,
 				7F02F46013EE189B00BDD4AC /* Calculator.h */,
 				7F02F46113EE189B00BDD4AC /* Calculator.m */,
+				7F1B13E813EF07BE00D2975B /* RockBand.h */,
+				7F1B13E913EF07BE00D2975B /* RockBand.m */,
 			);
 			path = LearningObjectiveC;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 			files = (
 				7F02F45613EDF97200BDD4AC /* main.m in Sources */,
 				7F02F46213EE189B00BDD4AC /* Calculator.m in Sources */,
+				7F1B13EA13EF07BE00D2975B /* RockBand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +239,7 @@
 				7F02F45F13EDF97200BDD4AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

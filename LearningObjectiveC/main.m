@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Calculator.h"
+#import "RockBand.h"
 
 int main (int argc, const char * argv[])
 {
@@ -57,6 +58,21 @@ int main (int argc, const char * argv[])
     
     [myCalc release];
     
+    NSArray *rock_bands = [RockBand bands];
+    NSLog(@"Listin rock bands:\n");
+    for (id band in rock_bands)
+    {
+        NSLog(@"%@", band);
+    }
+    
+    NSArray *bands = [NSArray arrayWithObjects:@"Bon Jovi", @"Regina Spektor", nil];
+    for (id band in bands)
+    {
+        BOOL result = [RockBand isARockBand: band];    
+        NSString *result_as_string = result == true?  @"Yes" : @"No";
+        NSLog(@"%@ is a rock band? %@", band, result_as_string);
+
+    }
     [pool drain];
     return 0;
 }
