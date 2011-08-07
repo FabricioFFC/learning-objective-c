@@ -7,11 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Calculator.h"
 
 int main (int argc, const char * argv[])
 {
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-    int n;
+    int n, x_variable;
+    BOOL boolean_variable;
+    boolean_variable = true;
+    
+    // loop
     while (n < 1) {
         NSLog(@"n is less than 2");
         n += 1;
@@ -19,7 +24,9 @@ int main (int argc, const char * argv[])
     for (n=0; n<5; n++) {
         NSLog(@"%i", n);
     }
-    if (true == true)
+    
+    // condition
+    if (boolean_variable == true)
     {
         NSLog(@"true equals true dah!");
     }
@@ -35,6 +42,21 @@ int main (int argc, const char * argv[])
         default:
             break;
     }
+    
+    x_variable = true == true? 1 : 2;
+    
+    NSLog(@"x_variable equals: %i", x_variable);
+    
+    // create an instance of Calculator
+    Calculator *myCalc = [Calculator new];
+    
+    [myCalc setAccumulator:10];
+    [myCalc add:5];
+    
+    NSLog(@"My calc display show: %.01f", myCalc.accumulator);
+    
+    [myCalc release];
+    
     [pool drain];
     return 0;
 }

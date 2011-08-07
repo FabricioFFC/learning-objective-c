@@ -10,6 +10,7 @@
 		7F02F45313EDF97200BDD4AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F02F45213EDF97200BDD4AC /* Foundation.framework */; };
 		7F02F45613EDF97200BDD4AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F02F45513EDF97200BDD4AC /* main.m */; };
 		7F02F45A13EDF97200BDD4AC /* LearningObjectiveC.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F02F45913EDF97200BDD4AC /* LearningObjectiveC.1 */; };
+		7F02F46213EE189B00BDD4AC /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F02F46113EE189B00BDD4AC /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		7F02F45513EDF97200BDD4AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F02F45813EDF97200BDD4AC /* LearningObjectiveC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LearningObjectiveC-Prefix.pch"; sourceTree = "<group>"; };
 		7F02F45913EDF97200BDD4AC /* LearningObjectiveC.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LearningObjectiveC.1; sourceTree = "<group>"; };
+		7F02F46013EE189B00BDD4AC /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		7F02F46113EE189B00BDD4AC /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,8 @@
 				7F02F45513EDF97200BDD4AC /* main.m */,
 				7F02F45913EDF97200BDD4AC /* LearningObjectiveC.1 */,
 				7F02F45713EDF97200BDD4AC /* Supporting Files */,
+				7F02F46013EE189B00BDD4AC /* Calculator.h */,
+				7F02F46113EE189B00BDD4AC /* Calculator.m */,
 			);
 			path = LearningObjectiveC;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F02F45613EDF97200BDD4AC /* main.m in Sources */,
+				7F02F46213EE189B00BDD4AC /* Calculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
